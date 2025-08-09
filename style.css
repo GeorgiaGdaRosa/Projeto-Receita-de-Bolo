@@ -1,0 +1,73 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+}
+
+h1, h2 {
+    background-color: #fd7e07;
+    padding: 10px;
+    border-radius: 3px;
+    color: aliceblue;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.ingredientes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; 
+}
+
+.coluna {
+    padding: 0%;
+}
+
+.coluna li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 16px;
+}
+
+.coluna img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+
+.btn-youtube {
+    border-radius: 6px;
+    background-color: red;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-youtube:hover{
+    background-color: rgba(255, 0, 0, 0.822);
+}
+
+ol, ul {
+    line-height: 40px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+
